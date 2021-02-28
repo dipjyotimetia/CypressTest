@@ -41,6 +41,24 @@
 - `npm run combine-reports` to combine mocha json report
 - `npm run generate-report` to generate html report
 
+#### Setup SorryCypress
+
+```bash
+# https://docs.cypress.io/guides/getting-started/installing-cypress.html#Binary-cache
+
+C:\Users\****\AppData\Local\Cypress\Cache\6.5.0\Cypress\resources\app\packages\server\config\app.yml
+
+or 
+
+$ cat /Users/****/Library/Caches/Cypress/3.4.1/Cypress.app/Contents/Resources/app/packages/server/config/app.yml
+
+# # Replace this with a URL of the alternative dashboard
+# production:
+#   # api_url: "https://api.cypress.io/"
+#   api_url: "http://localhost:1234/"
+# ...
+
+```
 ### Built With
 
 - [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
